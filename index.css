@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.container{
+   
+    margin-left: auto;
+    margin-right: auto;
+    width: 840px !important;
+    /* padding-right: 300px !important; */
+
+  }
+  .nav > .nav-item > .nav-link{
+    font-family: 'Lato', sans-serif;
+    font-style: normal; 
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555 !important;  
+  }
+  .nav > .nav-item > .active{
+    color: #0075D8 !important;
+
+  }
+
+  .common-section > .row > .col-auto > label{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    width: 200px;
+    
+    color: #555555;
+  }
+
+  .common-section{
+      padding-top: 26px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #D9D9D9;
+  }
+  .common-section > .row > .col-auto > input[type=text]{
+    width: 400px;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: none !important;
+    outline: 0 !important;
+    /* margin-bottom: 16px ; */
+  }
+  .common-section > .row > .col-auto > input[type=text]::placeholder,
+  .common-section > .row > .col-auto > .dropdown-input > input[type=text]::placeholder{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999999;
+  }
+  .common-section > .row {
+      align-items: center;
+      margin-bottom: 16px;
+
+  }
+  .common-section > .row > .col-auto {
+      display:flex ;
+      align-items: center;
+
+  }
+ .common-heading > h6{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    
+    letter-spacing: 0.02em;
+    
+    color: #555555;
+
+
+ }
+ .dropdown-input{
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 16px; */
+    
+
+ }
+ .dropdown-input > .dropdown {
+     margin-right: 10px;
+
+ }
+ .dropdown-input > .dropdown > .dropdown-toggle{
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 103px;
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+color: #555555;
+
+ }
+.dropdown-input > input[type=text]{
+    /* width: 400px; */
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: none !important;
+    outline: 0 !important;
+    /* margin-bottom: 16px ; */
+}
+.form-check > label{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    
+    color: #555555;
+}
+.form-check > .form-check-input{
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+    /* margin-bottom: 16px; */
+}
+.form-control{
+    width: 139px;
+}
+.amount-column{
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+}
+.amount-column > input[type=text]{
+  width: 134px;
+  margin-right: 10px;
+}
+.amount-column > input[type=text]::placeholder{
+  font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+color: #999999;
+}
+

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+  <link href="./index.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+
+	<ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Core Details</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Fees&Charges</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Repayment</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Accounting Details</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Funding&Settelment</button>
+    </li>
+  </ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+    <div class="core-details">
+      <form>
+        <!-- Core Details -->
+        <div class="common-section">
+          <div class="row g-2">
+            <div class="col-auto">
+              <label>Varient Name</label>
+              <input type="text" class="form-control" id="inputPassword2" placeholder="Enter the Varient Name">
+            </div>
+          </div>
+        </div>
+        <!-- core general info -->
+       <div class="common-section general-section">
+         <div class="common-heading">
+           <h6>General info</h6>
+          </div>
+          <div class="row g-2">
+            <div class="col-auto">
+              <label for="inputPassword2" >Loan Term</label>
+              <input type="text" class="form-control" id="inputPassword2" placeholder="Choose the purpose of loan">
+            </div>
+          </div>
+          <div class="row g-2">
+            <div class="col-auto">
+              <label for="staticEmail2" >Installment Duration</label>
+              <div class="dropdown-input">
+                <div class="dropdown">
+                  <button class="btn btn-outline dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Months
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><button class="dropdown-item" type="button">Action</button></li>
+                    <li><button class="dropdown-item" type="button">Another action</button></li>
+                    <li><button class="dropdown-item" type="button">Something else here</button></li>
+                  </ul>
+                </div>
+                <input type="text" class="form-control" id="inputPassword2" placeholder="Enter the Duration">
+              </div>
+            </div>
+          </div>
+          <div class="row g-2">
+            <div class="col-auto">
+              <label for="staticEmail2">Period Type</label>
+                <!-- <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Period type"> -->
+            </div>
+            <div class="col-auto">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Calender Month
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  Calender Month
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="row g-2">
+            <div class="col-auto">
+              <label for="staticEmail2">Installment Duration</label>
+            </div>
+            <div class="col-auto">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Single
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  Instalments
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Interst info -->
+        <div class="common-section interst-section">
+          <div class="common-heading">
+            <h6>Interst Info</h6>
+          </div>
+          <div class="row g-2">
+            <div class="col-auto">
+              <label for="staticEmail2">Interst</label>
+            </div>
+            <div class="col-auto">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Flat Rate
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                   Reducing Balance
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="row g-2">
+          <div class="col-auto">
+            <label for="staticEmail2">Interst Mode</label>
+          </div>
+          <div class="col-auto">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                Flat Rate
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+              <label class="form-check-label" for="exampleRadios2">
+                 Reducing Balance
+              </label>
+            </div>
+          </div>
+          </div>
+          <div class="row g-2">
+            <div class="col-auto">
+              <label for="staticEmail2" >Intrest Rate</label>
+              <div class="dropdown-input">
+                <div class="dropdown">
+                  <button class="btn btn-outline dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                    360
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><button class="dropdown-item" type="button">Action</button></li>
+                    <li><button class="dropdown-item" type="button">Another action</button></li>
+                    <li><button class="dropdown-item" type="button">Something else here</button></li>
+                  </ul>
+                </div>
+                <input type="text" class="form-control" id="inputPassword2" placeholder="Enter the Duration">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Payment info -->
+        <div class="common-section payment-section" >
+          <div class="common-heading">
+            <h6>Payment Info</h6>
+          </div>
+          <div class="row g-2">
+            <div class="col-auto">
+              <label for="staticEmail2">Perpayment Allowed</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Yes
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                   No
+                </label>
+              </div>
+            </div>
+          </div>
+            <div class="row g-2">
+              <div class="col-auto">
+                <label for="staticEmail2">Advanced Instalment</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    Yes
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                    No
+                  </label>
+                </div>
+              </div>
+            </div>
+          <div class="row g-2">
+            <div class="col-auto">
+              <label>Installment Date<br>(Past due)</label>
+              
+              <input type="text" class="form-control" id="inputPassword2" placeholder="Enter the Varient Name">
+            </div>
+          </div>
+          <div class="row g-2">
+            <div class="col-auto">
+              <label>Amount</label>
+              <div class="amount-column">
+                <input type="text" class="form-control" id="inputPassword2" placeholder="Enter the Varient Name">
+                <input type="text" class="form-control" id="inputPassword2" placeholder="Enter the Varient Name">
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+      
+    </div>
+  </div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Fees&Charges</div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+</div>
+</div>
+</body>
+</html>
