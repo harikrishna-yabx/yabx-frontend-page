@@ -34,13 +34,16 @@
     margin-right: 6px;
     background-color: #0075D8 ;
     text-align: center;
-    display: block;
+    display: block !important;
    
     
 /* identical to box height, or 133% */
 
 
 color: #FFFFFF;
+  }
+  .nav > .nav-item > .nav-link > span{
+    display: none;
   }
   
 
@@ -220,7 +223,8 @@ color: #999999;
   box-shadow: none !important;
     outline: 0 !important;
 }
-.interst-section > .row > .col-auto > .price-tag > span{
+.interst-section > .row > .col-auto > .price-tag > span ,
+.price-tag > span{
   font-family: Lato;
   font-style: normal;
   font-weight: 600;
@@ -233,7 +237,8 @@ color: #999999;
   color: #0075D8;
   margin-left: 16px;
 }
-.interst-section > .row > .col-auto > .price-tag > span:hover{
+.interst-section > .row > .col-auto > .price-tag > span:hover,
+.card > .price-tag > span > span:hover,.price-tag > span:hover >{
   text-decoration: underline;
   text-decoration-color: #0075D8;
   text-decoration-thickness: 2px;
@@ -241,7 +246,69 @@ color: #999999;
 .payment-section{
   border-bottom: none;
 }
-.card > span{
+.card{
+  border: 1px solid #D9D9D9;
+box-sizing: border-box;
+border-radius: 2px;
+width: 840px;
+/* height: 237px; */
+margin-top: 28px;
+padding: 16px;
+}
+.card > .headers-card{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-bottom: 8px;
+}
+.card > .headers-card > span{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+   margin-left: 11px;
+  /* margin-top: 16px; */ 
+  /* margin-bottom: 8px; */
+/* identical to box height, or 171% */
+
+letter-spacing: 0.02em;
+
+color: #555555;
+/* margin-left: 64px; */
+}
+.card > .headers-card > img{
+  /* background: #808080; */
+  /* width: 8.49px;
+  height: 5.66px; */
+}
+.card > .price-tag > span {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.02em;
+
+  color: #0075D8;
+  margin-left: 24px;
+}
+.card > .bands-table > table{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+.card > .bands-table > table > thead{
+  margin-left: 16px  !important;
+}
+.card > .bands-table > table > thead > tr {
+  background: #F5F5F5;
+  width: 808px;
+  height: 34px;
+}
+.card > .bands-table > table > thead > .tabel-header > th {
   font-family: Lato;
 font-style: normal;
 font-weight: normal;
@@ -252,6 +319,90 @@ line-height: 24px;
 letter-spacing: 0.02em;
 
 color: #555555;
-margin-left: 64px;
+padding-left: 24px;
+   
 }
+.card > .bands-table {
+  margin-bottom: 19px;
+  width: 100%;
+}
+
+.card > .bands-table > table > thead > th {
+  min-width: 210px;
+
+}
+.card > .bands-table > table > tbody > .table-input > .remove-option{
+  width: 100%;
+}
+.card > .bands-table > table > tbody > .table-input > td > input[type=text]{
+  border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border-radius: 2px;
+    height: 34px;
+    margin-left: 20px;
+    margin-top: 12px;
+    width: 210px;
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+.card > .bands-table > table > tbody > .table-input > td > input[type=text]::placeholder{
+  font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+
+
+color: #353535;
+
+}
+
+.card > .bands-table > table > tbody > .table-input > td > span{
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  
+  letter-spacing: 0.02em;
+  
+  color: #E25050;
+  margin-left:20px;
+}
+
+.dropdown >.dropdown-menu{
+  background: #FFFFFF;
+border: 1px solid #D9D9D9;
+box-sizing: border-box;
+box-shadow: 0px 1.2px 3.6px rgba(0, 0, 0, 0.1), 0px 6.4px 14.4px rgba(0, 0, 0, 0.13);
+border-radius: 2px;
+padding: 0px;
+
+} 
+.dropdown > .dropdown-menu > li > .dropdown-item{
+  font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+padding: 12px 8px 12px 8px;
+
+
+/* identical to box height, or 143% */
+
+
+color: #555555;
+}
+.dropdown > .price-tag{
+  margin-top: 24px;
+}
+.dropdown > .price-tag > span{
+  margin-left: 0px;  
+
+}
+
+
 
