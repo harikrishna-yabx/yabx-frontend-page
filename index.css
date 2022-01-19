@@ -17,8 +17,32 @@
   }
   .nav > .nav-item > .active{
     color: #0075D8 !important;
-
+    display:flex ;
+    align-items: center;
+    /* justify-content: space-between; */
   }
+  .nav > .nav-item > .active > span{
+    /* font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    padding-left: 6px; */
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+    background-color: #0075D8 ;
+    text-align: center;
+    display: block;
+   
+    
+/* identical to box height, or 133% */
+
+
+color: #FFFFFF;
+  }
+  
 
   .common-section > .row > .col-auto > label{
     font-family: 'Lato', sans-serif;
@@ -99,6 +123,12 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 20px;
+text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: none !important;
+    outline: 0 !important;
 /* identical to box height, or 143% */
 
 
@@ -129,6 +159,8 @@ color: #555555;
     width: 18px;
     height: 18px;
     margin-right: 4px;
+    box-shadow: none !important;
+    outline: 0 !important;
     /* margin-bottom: 16px; */
 }
 .form-control{
@@ -153,5 +185,73 @@ line-height: 20px;
 
 
 color: #999999;
+}
+
+.continue-button {
+  float: right;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.continue-button > .row > .col-auto > .continue{
+  background: #0075D8;
+  border-radius: 4px;
+  padding: 12px;
+  width: 288px;
+  height: 40px;
+  margin-left: 39px;
+  box-shadow: none !important;
+    outline: 0 !important;
+}
+
+.continue-button > .continue{
+  width: 288px;
+  height: 40px;
+}
+
+.continue-button > .row > .col-auto > .cancel{
+  width: 114px;
+  height: 40px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  box-shadow: none !important;
+    outline: 0 !important;
+}
+.interst-section > .row > .col-auto > .price-tag > span{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.02em;
+
+  color: #0075D8;
+  margin-left: 16px;
+}
+.interst-section > .row > .col-auto > .price-tag > span:hover{
+  text-decoration: underline;
+  text-decoration-color: #0075D8;
+  text-decoration-thickness: 2px;
+}
+.payment-section{
+  border-bottom: none;
+}
+.card > span{
+  font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: 0.02em;
+
+color: #555555;
+margin-left: 64px;
 }
 
