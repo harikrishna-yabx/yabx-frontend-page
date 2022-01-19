@@ -35,7 +35,7 @@
     background-color: #0075D8 ;
     text-align: center;
     display: block !important;
-   
+
     
 /* identical to box height, or 133% */
 
@@ -45,7 +45,6 @@ color: #FFFFFF;
   .nav > .nav-item > .nav-link > span{
     display: none;
   }
-  
 
   .common-section > .row > .col-auto > label{
     font-family: 'Lato', sans-serif;
@@ -225,7 +224,7 @@ color: #999999;
 }
 .interst-section > .row > .col-auto > .price-tag > span ,
 .price-tag > span{
-  font-family: Lato;
+ font-family: Lato;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -239,13 +238,14 @@ color: #999999;
 }
 .interst-section > .row > .col-auto > .price-tag > span:hover,
 .card > .price-tag > span > span:hover,.price-tag > span:hover >{
-  text-decoration: underline;
+ text-decoration: underline;
   text-decoration-color: #0075D8;
   text-decoration-thickness: 2px;
 }
 .payment-section{
   border-bottom: none;
 }
+
 .card{
   border: 1px solid #D9D9D9;
 box-sizing: border-box;
@@ -277,11 +277,7 @@ letter-spacing: 0.02em;
 color: #555555;
 /* margin-left: 64px; */
 }
-.card > .headers-card > img{
-  /* background: #808080; */
-  /* width: 8.49px;
-  height: 5.66px; */
-}
+
 .card > .price-tag > span {
   font-family: Lato;
   font-style: normal;
@@ -404,5 +400,6 @@ color: #555555;
 
 }
 
-
+margin-left: 64px;
+}
 
