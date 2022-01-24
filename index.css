@@ -57,6 +57,17 @@ color: #FFFFFF;
     
     color: #555555;
   }
+  .common-section > .row > .col-auto  > .content >label {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    width: 221px;
+    
+    color: #555555;
+  }
 
   .common-section{
       padding-top: 26px;
@@ -64,7 +75,7 @@ color: #FFFFFF;
       border-bottom: 1px solid #D9D9D9;
   }
   .common-section > .row > .col-auto > input[type=text]{
-    width: 400px;
+    width: 320px;
     border: 1px solid #D9D9D9;
     box-sizing: border-box;
     border-radius: 2px;
@@ -138,12 +149,13 @@ color: #555555;
 
  }
 .dropdown-input > input[type=text]{
-    width: 285px;
+    width: 101px;
     border: 1px solid #D9D9D9;
     box-sizing: border-box;
     border-radius: 2px;
     box-shadow: none !important;
     outline: 0 !important;
+    margin-right: 8px;
     /* margin-bottom: 16px ; */
 }
 .form-check > label{
@@ -168,16 +180,34 @@ color: #555555;
 .form-control{
     width: 139px;
 }
-.amount-column{
+.amount-column,.time > .time-column{
   /* width: 100%; */
   display: flex;
   align-items: center;
 }
-.amount-column > input[type=text]{
-  width: 134px;
+.time > .time-column > input[type=text]{
+  width: 156px;
+  height: 34px;
   margin-right: 10px;
+  border-radius:2px;
 }
-.amount-column > input[type=text]::placeholder{
+.time > label {
+  margin-top: 8px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #555555;
+
+}
+.amount-column > input[type=text]{
+  width: 156px;
+  margin-right: 8px;
+}
+.amount-column > input[type=text]::placeholder,
+.time-column > input[type=text]::placeholder{
   font-family: Lato;
 font-style: normal;
 font-weight: normal;
@@ -191,7 +221,7 @@ color: #999999;
 
 .continue-button {
   float: right;
-  margin-top: 32px;
+  margin-top: 56px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -255,13 +285,15 @@ width: 840px;
 margin-top: 28px;
 padding: 16px;
 }
-.card > .headers-card{
+.card > .headers-card,
+.settelment-order > .Settelment-list >.row > .col-auto > .headers-card{
   display: flex;
   align-items: center;
   margin-left: 20px;
   margin-bottom: 8px;
 }
-.card > .headers-card > span{
+.card > .headers-card > span,
+.settelment-order > .Settelment-list >.row > .col-auto > .headers-card > label{
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
@@ -329,6 +361,108 @@ padding-left: 24px;
 }
 .card > .bands-table > table > tbody > .table-input > .remove-option{
   width: 100%;
+} 
+.common-section > .row > .col-auto > .precentage-input > input[type=text]{
+  border: 1px solid #D9D9D9;
+box-sizing: border-box;
+border-radius: 2px;
+width: 320px;
+height: 34px;
+}
+.common-section > .row > .col-auto > .precentage-input > input[type=text]::placeholder{
+  font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+color: #999999;
+
+}
+.common-section > .row > .col-auto > .precentage-input{
+  display: flex;
+  align-items: center;
+  position: relative;
+} 
+.common-section > .row > .col-auto > .precentage-input > label{
+  position: absolute;
+  right: 10px;
+  font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+color: #999999;
+}
+.card > .bands-table > table > tbody > .table-input > .precentage{
+  position: relative;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.card > .bands-table > table > tbody > .table-input > td > label{
+  /* margin-top: 12px; */
+  position: absolute;
+    /* margin-top: 12px; */
+    
+    top: 21px;
+    right: 10px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    color: #999999;
+
+}
+.interst-section > .row > .col-auto > .dropdown-input > .precentage-input > input[type=text]{
+  border: 1px solid #D9D9D9;
+box-sizing: border-box;
+border-radius: 2px;
+width: 210px;
+height: 34px;
+}
+.interst-section > .row > .col-auto > .dropdown-input > .precentage-input > input[type=text]::placeholder{
+  font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+color: #999999;
+
+}
+.interst-section > .row > .col-auto > .dropdown-input > .precentage-input > label{
+  position: absolute;
+  /* margin-top: 12px; */
+  
+  /* top: 21px; */
+  right: 10px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+
+  color: #999999;
+}
+.interst-section > .row > .col-auto > .dropdown-input > .precentage-input{
+  position: relative;
+    display: flex;
+    align-items: center;
 }
 .card > .bands-table > table > tbody > .table-input > td > input[type=text]{
   border: 1px solid #D9D9D9;
@@ -371,14 +505,24 @@ color: #353535;
 
 .dropdown >.dropdown-menu{
   background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  box-sizing: border-box;
+  box-shadow: 0px 1.2px 3.6px rgba(0, 0, 0, 0.1), 0px 6.4px 14.4px rgba(0, 0, 0, 0.13);
+  border-radius: 2px;
+  padding: 0px;
+}
+.funding > .row > .col-auto > .dropdown-input > .dropdown > .dropdown-menu{
+  background: #FFFFFF;
 border: 1px solid #D9D9D9;
 box-sizing: border-box;
 box-shadow: 0px 1.2px 3.6px rgba(0, 0, 0, 0.1), 0px 6.4px 14.4px rgba(0, 0, 0, 0.13);
 border-radius: 2px;
 padding: 0px;
+width: 100%;
 
 } 
-.dropdown > .dropdown-menu > li > .dropdown-item{
+.dropdown > .dropdown-menu > li > .dropdown-item,
+.funding > .row > .col-auto > .dropdown-input > .dropdown > .dropdown-menu > li > .dropdown-item{
   font-family: Lato;
 font-style: normal;
 font-weight: normal;
@@ -387,19 +531,83 @@ line-height: 20px;
 padding: 12px 8px 12px 8px;
 
 
+
 /* identical to box height, or 143% */
 
 
 color: #555555;
 }
-.dropdown > .price-tag{
+/* .dropdown > .price-tag{
   margin-top: 24px;
-}
+} */
 .dropdown > .price-tag > span{
   margin-left: 0px;  
 
 }
-
+/* 
 margin-left: 64px;
+} */
+.no-border{
+  border-bottom: none;
+
+}
+.form-checkbox{
+  margin-right: 27px !important;
+}
+.stage-heading > h6{
+  font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: 0.02em;
+
+color: #555555;
+margin-bottom: 23px;
+
 }
 
+.funding > .row > .col-auto > .dropdown-input > .dropdown > .dropdown-toggle,
+.payment-section > .row > .col-auto > .dropdown-input > .dropdown > .dropdown-toggle{
+  border: 1px solid #D9D9D9;
+box-sizing: border-box;
+border-radius: 2px;
+width: 320px;
+height: 34px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+color: #999999;
+
+
+}
+.fees-charges > .row > .card  {
+  margin-bottom: 32px;
+}
+.fees-charges > .row > .col-auto > .dropdown-input > input[type=text]{
+  width:210px;
+  height:34px;
+  border: 1px solid #D9D9D9;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+.fees-charges > .row > .col-auto{
+  margin-top: 3px;
+}
+.moratairum-section > .common-heading,
+.settelment-order > .common-heading{
+  margin-bottom: 23px;
+}
+.moratairum-section > .row > .col-auto > .from-radio1{
+  margin-right: 64px !important;
+}
+.form-radio2{
+  margin-right: 24px !important;
+}

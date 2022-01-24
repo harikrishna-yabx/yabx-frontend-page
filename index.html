@@ -16,262 +16,737 @@
       <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><span >1</span>Core Details</button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Fees&Charges</button>
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><span >2</span>Fees&Charges</button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Repayment</button>
+      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span >3</span>Repayment</button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Accounting Details</button>
+      <button class="nav-link" id="pills-accounting-tab" data-bs-toggle="pill" data-bs-target="#pills-accounting" type="button" role="tab" aria-controls="pills-accounting" aria-selected="false"><span >4</span>Accounting Details</button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Funding&Settelment</button>
+      <button class="nav-link" id="pills-funding-tab" data-bs-toggle="pill" data-bs-target="#pills-funding" type="button" role="tab" aria-controls="pills-funding" aria-selected="false"><span >5</span>Funding&Settelment</button>
     </li>
   </ul>
-<div class="tab-content" id="pills-tabContent">
-  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-    <div class="core-details">
-      <form>
-        <!-- Core Details -->
-        <div class="common-section">
-          <div class="row g-2">
-            <div class="col-auto">
-              <label>Varient Name</label>
-              <input type="text" class="form-control" id="inputPassword2" placeholder="Enter the Varient Name">
-            </div>
-          </div>
-        </div>
-        <!-- core general info -->
-       <div class="common-section general-section">
-         <div class="common-heading">
-           <h6>General info</h6>
-          </div>
-          <div class="row g-2">
-            <div class="col-auto">
-              <label for="inputPassword2" >Loan Term</label>
-              <input type="text" class="form-control" id="inputPassword2" placeholder="Choose the purpose of loan">
-            </div>
-          </div>
-          <div class="row g-2">
-            <div class="col-auto">
-              <label for="staticEmail2" >Installment Duration</label>
-              <div class="dropdown-input">
-                <div class="dropdown">
-                  <button class="btn btn-outline dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                    Months
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li><button class="dropdown-item" type="button">Action</button></li>
-                    <li><button class="dropdown-item" type="button">Another action</button></li>
-                    <li><button class="dropdown-item" type="button">Something else here</button></li>
-                  </ul>
-                </div>
-                <input type="text" class="form-control" id="inputPassword2" placeholder="Enter the Duration">
-              </div>
-            </div>
-          </div>
-          <div class="row g-2">
-            <div class="col-auto">
-              <label for="staticEmail2">Period Type</label>
-                <!-- <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Period type"> -->
-            </div>
-            <div class="col-auto">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                <label class="form-check-label" for="exampleRadios1">
-                  Calender Month
-                </label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                <label class="form-check-label" for="exampleRadios2">
-                  Calender Month
-                </label>
-              </div>
-            </div>
-          </div>
-          <div class="row g-2">
-            <div class="col-auto">
-              <label for="staticEmail2">Repayment type</label>
-            </div>
-            <div class="col-auto">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="single" value="option1" checked>
-                <label class="form-check-label" for="single">
-                  Single
-                </label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="installment" value="option2">
-                <label class="form-check-label" for="installment">
-                  Instalments
-                </label>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Interst info -->
-        <div class="common-section interst-section">
-          <div class="common-heading">
-            <h6>Interest Info</h6>
-          </div>
-          <div class="row g-2">
-            <div class="col-auto">
-              <label for="staticEmail2">Interest</label>
-            </div>
-            <div class="col-auto">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="flat_rate" value="option1" checked>
-                <label class="form-check-label" for="flat_rate">
-                  Flat Rate
-                </label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="reducingBalance" value="option2">
-                <label class="form-check-label" for="reducingBalance">
-                   Reducing Balance
-                </label>
-              </div>
-            </div>
-          </div>
-          <div class="row g-2">
-          <div class="col-auto">
-            <label for="staticEmail2">Interest Mode</label>
-          </div>
-          <div class="col-auto">
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="fixedInterest" value="option1" checked>
-              <label class="form-check-label" for="fixedInterest">
-                Fixed Interest
-              </label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="floatingInterest" value="option2">
-              <label class="form-check-label" for="floatingInterest">
-                 Floating Interest
-              </label>
-            </div>
-          </div>
-          </div>
-          <div class="row g-2">
-            <div class="col-auto">
-              <label for="staticEmail2" >Interest Rate</label>
-              <div class="dropdown-input">
-                <div class="dropdown">
-                  <button class="btn btn-outline dropdown-toggle" type="button"  data-bs-toggle="dropdown" aria-expanded="false">
-                    360
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li><button class="dropdown-item" type="button">Action</button></li>
-                    <li><button class="dropdown-item" type="button">Another action</button></li>
-                    <li><button class="dropdown-item" type="button">Something else here</button></li>
-                  </ul>
-                </div>
-                <input type="text" class="form-control" id="inputPassword2" placeholder="Enter Interest rate">
-              </div>
-              <div class="price-tag">
-                <span>+ Add Price Bands</span>
-                <!-- <button type="button" class="btn btn-light btn-sm cancel" >+Add Price Bands</button> -->
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Payment info -->
-        <div class="common-section payment-section" >
-          <div class="common-heading">
-            <h6>Payment Info</h6>
-          </div>
-          <div class="row g-2">
-            <div class="col-auto">
-              <label for="staticEmail2">Perpayment Allowed</label>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="perpaymentAllowedYes" value="option1" checked>
-                <label class="form-check-label" for="perpaymentAllowedYes">
-                  Yes
-                </label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="perpaymentAllowedNo" value="option2">
-                <label class="form-check-label" for="perpaymentAllowedNo">
-                   No
-                </label>
-              </div>
-            </div>
-          </div>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <div class="core-details">
+        <form>
+          <!-- Core Details -->
+          <div class="common-section">
             <div class="row g-2">
               <div class="col-auto">
-                <label for="staticEmail2">Advanced Instalment</label>
+                <label>Varient Name</label>
+                <input type="text" class="form-control" id="inputPassword2" placeholder="Enter the Varient Name">
+              </div>
+            </div>
+            <div class="row g-2">
+              <div class="col-auto">
+                <label>Description</label>
+                <input type="text" class="form-control" id="inputPassword2" placeholder="Enter Description">
+              </div>
+            </div>
+          </div>
+          <!-- core general info -->
+        <div class="common-section general-section">
+          <div class="common-heading">
+            <h6>General info</h6>
+            </div>
+            <div class="row g-2">
+              <div class="col-auto">
+                <label>Amount</label>
+                <div class="amount-column">
+                  <input type="text" class="form-control" id="inputPassword2" placeholder="Minimun Amount">
+                  <input type="text" class="form-control" id="inputPassword2" placeholder="Maximun Amount">
+                </div>
+              </div>
+            </div>
+            <!-- <div class="row g-2">
+              <div class="col-auto">
+                <label for="inputPassword2" >Loan Term</label>
+                <input type="text" class="form-control" id="inputPassword2" placeholder="Choose the purpose of loan">
+              </div>
+            </div> -->
+            <div class="row g-2">
+              <div class="col-auto">
+                <label for="staticEmail2" >Installment Duration</label>
+                <div class="dropdown-input">
+                  <div class="dropdown">
+                    <button class="btn btn-outline dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                      Months
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <li><button class="dropdown-item" type="button">Action</button></li>
+                      <li><button class="dropdown-item" type="button">Another action</button></li>
+                      <li><button class="dropdown-item" type="button">Something else here</button></li>
+                    </ul>
+                  </div>
+                  <input type="text" class="form-control" id="inputPassword2" placeholder="Min">
+                  <input type="text" class="form-control" id="inputPassword2" placeholder="Max">
+                </div>
+              </div>
+            </div>
+            <div class="row g-2">
+              <div class="col-auto">
+                <label for="staticEmail2">Period Type</label>
+                  <!-- <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Period type"> -->
+              </div>
+              <div class="col-auto">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="exampleRadios" id="advancedInstalmentYes" value="option1" checked>
-                  <label class="form-check-label" for="advancedInstalmentYes">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    Payment Period
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                    Disbursement Date
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="row g-2">
+              <div class="col-auto">
+                <label for="staticEmail2">Repayment type</label>
+              </div>
+              <div class="col-auto">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="single" value="option1" checked>
+                  <label class="form-check-label" for="single">
+                    Single
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="installment" value="option2">
+                  <label class="form-check-label" for="installment">
+                    Instalments
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Interst info -->
+          <div class="common-section interst-section">
+            <div class="common-heading">
+              <h6>Interest Info</h6>
+            </div>
+            <div class="row g-2">
+              <div class="col-auto">
+                <label for="staticEmail2">Interest</label>
+              </div>
+              <div class="col-auto">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="flat_rate" value="option1" checked>
+                  <label class="form-check-label" for="flat_rate">
+                    Flat Rate
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="reducingBalance" value="option2">
+                  <label class="form-check-label" for="reducingBalance">
+                    Reducing Balance
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="row g-2">
+            <div class="col-auto">
+              <label for="staticEmail2">Interest Mode</label>
+            </div>
+            <div class="col-auto">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="fixedInterest" value="option1" checked>
+                <label class="form-check-label" for="fixedInterest">
+                  Fixed Interest
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="floatingInterest" value="option2">
+                <label class="form-check-label" for="floatingInterest">
+                  Floating Interest
+                </label>
+              </div>
+            </div>
+            </div>
+            <div class="row g-2">
+              <div class="col-auto">
+                <label for="staticEmail2" >Interest Rate %</label>
+                <div class="dropdown-input">
+                  <div class="dropdown">
+                    <button class="btn btn-outline dropdown-toggle" type="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                      360
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <li><button class="dropdown-item" type="button">Action</button></li>
+                      <li><button class="dropdown-item" type="button">Another action</button></li>
+                      <li><button class="dropdown-item" type="button">Something else here</button></li>
+                    </ul>
+                  </div> 
+                  <div class="precentage-input">
+                    <input type="text" class="form-control" id="inputPassword2" placeholder="Enter interest rate" />
+                    <label>%</label>
+                  </div>
+                  <!-- <input type="text" class="form-control" id="inputPassword2" placeholder="Enter Interest rate"> -->
+                </div>
+                <div class="price-tag">
+                  <span>+ Add Price Bands</span>
+                  <!-- <button type="button" class="btn btn-light btn-sm cancel" >+Add Price Bands</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Payment info -->
+          <div class="common-section payment-section" >
+            <div class="common-heading">
+              <h6>Payment Info</h6>
+            </div>
+            <div class="row g-2">
+              <div class="col-auto">
+                <label for="staticEmail2">Perpayment Allowed</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="perpaymentAllowedYes" value="option1" checked>
+                  <label class="form-check-label" for="perpaymentAllowedYes">
                     Yes
                   </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="exampleRadios" id="advancedInstalmentNo" value="option2">
-                  <label class="form-check-label" for="advancedInstalmentNo">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="perpaymentAllowedNo" value="option2">
+                  <label class="form-check-label" for="perpaymentAllowedNo">
                     No
                   </label>
                 </div>
               </div>
             </div>
-          <div class="row g-2">
-            <div class="col-auto">
-              <label>Installment Date<br>(Past due)</label>
-              
-              <input type="text" class="form-control" id="inputPassword2" placeholder="Choose the Installment date">
+              <div class="row g-2">
+                <div class="col-auto">
+                  <label for="staticEmail2">Advanced Instalment</label>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="advancedInstalmentYes" value="option1" checked>
+                    <label class="form-check-label" for="advancedInstalmentYes">
+                      Yes
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="advancedInstalmentNo" value="option2">
+                    <label class="form-check-label" for="advancedInstalmentNo">
+                      No
+                    </label>
+                  </div>
+                </div>
+              </div>
+            <div class="row g-2">
+              <div class="col-auto">
+                <label>Installment Date</label>
+                
+                <div class="dropdown-input">
+                  <div class="dropdown">
+                    <button class="btn btn-outline dropdown-toggle" type="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                      Choose Disbursement Account
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                      <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                      <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                      <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                      <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                    </ul>
+                  </div>
+                </div>              </div>
             </div>
-          </div>
-          <div class="row g-2">
-            <div class="col-auto">
-              <label>Amount</label>
-              <div class="amount-column">
-                <input type="text" class="form-control" id="inputPassword2" placeholder="Minimun Amount">
-                <input type="text" class="form-control" id="inputPassword2" placeholder="Maximun Amount">
+            <div class="row g-2">
+              <div class="col-auto">
+                <label>Payment grace period
+                <br>(Days)</label>
+                
+                <input type="text" class="form-control" id="inputPassword2" placeholder="Min">
               </div>
             </div>
-          </div>
-        </div>
-        <!-- down part -->
-        <div class="continue-button">
+            <!-- down part -->
+          <div class="continue-button">
             <div class="row g-2">
               <div class="col-auto">
                 <button type="button" class="btn btn-light btn-sm cancel" >Cancel</button>
                 <button type="button" class="btn btn-primary btn-sm continue">Continue</button>
               </div>
             </div>
-        </div>
-      </form>
-      
+          </div>
+          </div>
+          
+        
+        </form>
+        
+      </div>
     </div>
-  </div>
-  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-    
-    <div class="dropdown">
-      <!-- <button class="btn btn-outline-light  " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> -->
-        <div class="price-tag " id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-          <span>+ Add Price Bands</span>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <div class="common-section fees-charges">
+          <div class="row g-2">
+              <div class="col-auto">
+                <label for="staticEmail2" >Application Fee</label>
+                <div class="dropdown-input">
+                  <div class="dropdown">
+                    <button class="btn btn-outline dropdown-toggle" type="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                      Amount
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <li><button class="dropdown-item" type="button">Action</button></li>
+                      <li><button class="dropdown-item" type="button">Another action</button></li>
+                      <li><button class="dropdown-item" type="button">Something else here</button></li>
+                    </ul>
+                  </div>
+                  <input type="text" class="form-control" id="inputPassword2" placeholder="Enter Application Fees">
+                </div>
+                <div class="price-tag">
+                  <span>+ Add New Band</span>
+                  <!-- <button type="button" class="btn btn-light btn-sm cancel" >+Add Price Bands</button> -->
+                </div>
+              </div>
+            </div>
+            <div class="row g-2">
+              <div class="col-auto">
+                <label></label>
+                <div class="amount-column">
+                  <input type="text" class="form-control" id="inputPassword2" placeholder="Minimun Amount">
+                  <input type="text" class="form-control" id="inputPassword2" placeholder="Maximun Amount">
+                </div>
+              </div>
+            </div>
         </div>
-      <!-- </button> -->
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-        <li><a class="dropdown-item" href="#">Action</a></li>
-        <li><a class="dropdown-item" href="#">Another action</a></li>
-        <li><a class="dropdown-item" href="#">Something else here</a></li>
-      </ul>
+        <div class="common-section fees-charges">
+          <div class="row g-2">
+              <div class="col-auto">
+                <label for="staticEmail2" >Late Payment Fees</label>
+                <div class="dropdown-input">
+                  <div class="dropdown">
+                    <button class="btn btn-outline dropdown-toggle" type="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                      Amount
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <li><button class="dropdown-item" type="button">Action</button></li>
+                      <li><button class="dropdown-item" type="button">Another action</button></li>
+                      <li><button class="dropdown-item" type="button">Something else here</button></li>
+                    </ul>
+                  </div>
+                  <input type="text" class="form-control" id="inputPassword2" placeholder="Enter Late Payment Fees">
+                </div>
+                
+                <div class="price-tag">
+                  <span>+ Add New Band</span>
+                  <!-- <button type="button" class="btn btn-light btn-sm cancel" >+Add Price Bands</button> -->
+                </div>
+              </div>
+            </div>
+            <div class="card g-2">
+              <div class="headers-card">
+                <img src="./assets/images/down_arrow.svg" alt="down_arrow" /> 
+                <span>Bands</span>
+              </div>
+                <div class="bands-table">
+                  <table>
+                      <thead>
+                          <tr class="tabel-header">
+                              <th>Minimum Amount</th>
+                              <th>Maximum amount</th>
+                              <th>Late Payment Fees</th>
+                              <th></th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="table-input">
+                          <td >
+                            <input type="text" class="form-control" id="inputPassword2" placeholder="1" />
+                          </td>
+                          <td>
+                              <input type="text" class="form-control" id="inputPassword2" placeholder="50" />
+                          </td>
+                          <td>
+                            <input type="text" class="form-control" id="inputPassword2" placeholder="300" />
+                          </td>
+                          <td class="remove-option">
+                            <span>Remove</span>
+                          </td>
+                        </tr>
+                        
+                      </tbody>
+                  </table>
+                </div>
+                <div class="price-tag">
+                  <span>+ Add Price Bands</span>
+                  <!-- <button type="button" class="btn btn-light btn-sm cancel" >+Add Price Bands</button> -->
+                </div>
+            </div>
+        </div>
+        <div class="common-section no-border">
+        <div class="dropdown">
+          <!-- <button class="btn btn-outline-light  " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> -->
+            <div class="price-tag " id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <span>+ Add Price Bands</span>
+            </div>
+          <!-- </button> -->
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+        <!-- down part -->
+        <div class="continue-button">
+          <div class="row g-2">
+            <div class="col-auto">
+              <button type="button" class="btn btn-light btn-sm cancel" >Back</button>
+              <button type="button" class="btn btn-primary btn-sm continue">Continue</button>
+            </div>
+          </div>
+      </div>
+      </div>
+    </form>
     </div>
-      <!-- down part -->
-      <div class="continue-button">
+    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <div class="common-section">
         <div class="row g-2">
           <div class="col-auto">
-            <button type="button" class="btn btn-light btn-sm cancel" >Back</button>
-            <button type="button" class="btn btn-primary btn-sm continue">Continue</button>
+            <label>Repayment Channel</label>
+            <div class="form-check form-check-inline form-checkbox">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1">Cash</label>
+            </div>
+            <div class="form-check form-check-inline form-checkbox">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">Bank</label>
+            </div>
+            <div class="form-check form-check-inline form-checkbox">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+              <label class="form-check-label" for="inlineCheckbox3">Wallet</label>
+            </div>
+            <div class="form-check form-check-inline form-checkbox">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+              <label class="form-check-label" for="inlineCheckbox4">UPI</label>
+            </div>
           </div>
         </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <label>Rescheduling Period</label>
+            <div class="form-check form-check-inline form-checkbox">
+              <input class="form-check-input" type="checkbox" id="recModes1" value="option1">
+              <label class="form-check-label" for="recModes1">Increase Tenure</label>
+            </div>
+            <div class="form-check form-check-inline form-checkbox">
+              <input class="form-check-input" type="checkbox" id="recModes2" value="option2">
+              <label class="form-check-label" for="recModes2">Reduce Tenure</label>
+            </div>
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <label>Rescheduling Period</label>
+            <div class="time">
+              <div class="time-column">
+                <input type="text" class="form-control" id="inputPassword2" placeholder="Start Date" />
+                <input type="text" class="form-control" id="inputPassword2" placeholder="End Date" />
+              </div>
+               <label> Comment - relative to loan started</label> 
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <!-- Moratairum -->
+      <div class="common-section moratairum-section">
+        <div class="common-heading">
+          <h6>Moratarium</h6>
+        </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <label for="staticEmail2">Moratarium type</label>
+          </div>
+          <div class="col-auto">
+            <div class="form-check form-check-inline from-radio1">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="principalOnly" value="option1" checked>
+              <label class="form-check-label" for="principalOnly">
+                Principal only
+              </label>
+            </div>
+            <div class="form-check form-check-inline from-radio1">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="principalInterest" value="option2">
+              <label class="form-check-label" for="principalInterest">
+                Principal & interest
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row g-2">
+        <div class="col-auto">
+          <label for="staticEmail2">Interest Handling in
+            Moratarium</label>
+        </div>
+        <div class="col-auto">
+          <div class="form-check form-check-inline form-radio2">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="accumulateInterest" value="option1" checked>
+            <label class="form-check-label" for="accumulateInterest">
+              Accumulate Interest
+            </label>
+          </div>
+          <div class="form-check form-check-inline form-radio2">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="addToPrincipal" value="option2">
+            <label class="form-check-label" for="addToPrincipal">
+              Add to Principal
+            </label>
+          </div>
+        </div>
+        </div>
+      </div>
+      <!-- Settelment Order -->
+      <div class="common-section settelment-order no-border">
+        <div class="common-heading">
+          <h6>Settelment Order</h6>
+        </div>
+        <div class="Settelment-list">
+        <div class="row g-2">
+          <div class="col-auto">
+            <div class="headers-card">
+              <img src="./assets/images/moratarium.svg" alt="down_arrow" />
+              <img src="./assets/images/moratarium.svg" alt="down_arrow" />
+              <label for="staticEmail2">Late Payment Fees</label>  
+            </div>
+            </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <div class="headers-card">
+              <img src="./assets/images/moratarium.svg" alt="down_arrow" />
+              <img src="./assets/images/moratarium.svg" alt="down_arrow" />
+              <label for="staticEmail2">Bounce Charges</label>  
+            </div>
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <div class="headers-card">
+              <img src="./assets/images/moratarium.svg" alt="down_arrow" />
+              <img src="./assets/images/moratarium.svg" alt="down_arrow" />
+              <label for="staticEmail2">Prepayment Charges</label>  
+            </div>
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <div class="headers-card">
+              <img src="./assets/images/moratarium.svg" alt="down_arrow" />
+              <img src="./assets/images/moratarium.svg" alt="down_arrow" />
+              <label for="staticEmail2">Arrier interest</label>  
+            </div>
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <div class="headers-card">
+              <img src="./assets/images/moratarium.svg" alt="down_arrow" />
+              <img src="./assets/images/moratarium.svg" alt="down_arrow" />
+              <label for="staticEmail2">Interest</label>  
+            </div>
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <div class="headers-card">
+              <img src="./assets/images/moratarium.svg" alt="down_arrow" />
+              <img src="./assets/images/moratarium.svg" alt="down_arrow" />
+              <label for="staticEmail2">Application fee</label>  
+            </div>
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <div class="headers-card">
+              <img src="./assets/images/moratarium.svg" alt="down_arrow" />
+              <img src="./assets/images/moratarium.svg" alt="down_arrow" />
+              <label for="staticEmail2">Principal Amount</label>  
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="continue-button">
+          <div class="row g-2">
+            <div class="col-auto">
+              <button type="button" class="btn btn-light btn-sm cancel" >Back</button>
+              <button type="button" class="btn btn-primary btn-sm continue">Continue</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+     
+    
     </div>
-  </form>
+    <div class="tab-pane fade" id="pills-accounting" role="tabpanel" aria-labelledby="pills-accounting-tab">
+      <div class="common-section">
+        <div class="stage-heading ">
+          <h6>Stage 1 - Provision</h6>
+        </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <label>Days from Due</label>
+            <input type="text" class="form-control" id="inputPassword2" placeholder="Enter Days">
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <label>Percentage</label>
+            <div class="precentage-input">
+              <input type="text" class="form-control" id="inputPassword2" placeholder="Enter Percentage" />
+              <label>%</label>
+            </div>
+            <!-- <input type="text" class="form-control" id="inputPassword2" placeholder="Enter the Varient Name"> -->
+          </div>
+        </div>
+      </div>
+      <div class="common-section">
+        <div class="stage-heading ">
+          <h6>Stage 1 - Provision</h6>
+        </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <label>Days from Due</label>
+            <input type="text" class="form-control" id="inputPassword2" placeholder="Enter Days">
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <label>Percentage</label>
+            <div class="precentage-input">
+              <input type="text" class="form-control" id="inputPassword2" placeholder="Enter Percentage" />
+              <label>%</label>
+            </div>
+            <!-- <input type="text" class="form-control" id="inputPassword2" placeholder="Enter the Varient Name"> -->
+          </div>
+        </div>
+      </div>
+      <div class="common-section">
+        <div class="stage-heading ">
+          <h6>Stage 1 - Provision</h6>
+        </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <label>Days from Due</label>
+            <input type="text" class="form-control" id="inputPassword2" placeholder="Enter Days">
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <label>Percentage</label>
+            <div class="precentage-input">
+              <input type="text" class="form-control" id="inputPassword2" placeholder="Enter Percentage" />
+              <label>%</label>
+            </div>
+            <!-- <input type="text" class="form-control" id="inputPassword2" placeholder="Enter the Varient Name"> -->
+          </div>
+        </div>
+      </div>
+      <div class="common-section">
+        <div class="stage-heading ">
+          <h6>Nonperforming Asset</h6>
+        </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <label>Days from Due</label>
+            <input type="text" class="form-control" id="inputPassword2" placeholder="Enter Days">
+          </div>
+        </div>
+      </div>
+      <div class="common-section no-border">
+        <div class="stage-heading ">
+          <h6>Write off</h6>
+        </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <label>Write off (Days from Due)</label>
+            <input type="text" class="form-control" id="inputPassword2" placeholder="Enter Days">
+          </div>
+        </div>
+      </div>
+      <!-- down part -->
+        <!-- <div class="common-section no-border"> -->
+          <div class="continue-button no-broder">
+            <div class="row g-2">
+              <div class="col-auto">
+                <button type="button" class="btn btn-light btn-sm cancel" >Back</button>
+                <button type="button" class="btn btn-primary btn-sm continue">Continue</button>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="pills-funding" role="tabpanel" aria-labelledby="pills-funding-tab">
+      <div class="common-section funding no-border">
+        <div class="row g-2">
+          <div class="col-auto">
+            <label for="staticEmail2" >Funding Source</label>
+            <div class="dropdown-input">
+              <div class="dropdown">
+                <button class="btn btn-outline dropdown-toggle" type="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                  Choose Funding Source
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                  <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                  <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                  <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                  <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <label for="staticEmail2" >Disbursement Account</label>
+            <div class="dropdown-input">
+              <div class="dropdown">
+                <button class="btn btn-outline dropdown-toggle" type="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                  Choose Disbursement Account
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                  <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                  <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                  <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                  <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-auto">
+            <label for="staticEmail2" >Collection Account</label>
+            <div class="dropdown-input">
+              <div class="dropdown">
+                <button class="btn btn-outline dropdown-toggle" type="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                  Choose Collection Account
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                  <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                  <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                  <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                  <li><button class="dropdown-item" type="button">Place holder 1</button></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="continue-button">
+          <div class="row g-2">
+            <div class="col-auto">
+              <button type="button" class="btn btn-light btn-sm cancel" >Cancel</button>
+              <button type="button" class="btn btn-primary btn-sm continue">Continue</button>
+            </div>
+          </div>
+      </div>
+
+      </div>
+    </div>
   </div>
-  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
-</div>
 </div>
 </body>
 </html>
